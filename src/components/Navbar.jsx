@@ -97,7 +97,7 @@ const Navbar = () => {
 
           {/* 🟡 Admin Icon Link */}
           <motion.a
-            href="/admin"
+            href="/#"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             className="p-3 rounded-full border border-gold-400/30 hover:bg-gold-400/20 transition-all duration-300 flex items-center justify-center"
@@ -190,7 +190,7 @@ const Navbar = () => {
 
               {/* 🟡 Admin Icon Link for Mobile */}
               <motion.a
-                href="/admin"
+                href="/#"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.25 }}
