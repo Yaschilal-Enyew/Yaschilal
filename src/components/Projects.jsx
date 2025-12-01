@@ -114,18 +114,27 @@ const ProjectCard = ({ title, description, image, liveLink, githubLink, index })
 
 // Main Projects Section
 const Projects = () => {
-  const projects = [
+ const projects = [
     {
       id: 1,
-      title: "NewsLetter Form",
+      title: "Infinity Electronics",
       description:
-        "Newsletter App with Mailchimp Integration that allows users to subscribe to newsletters and  to manage subscribers and send email campaigns efficiently. Built with EJS for a smooth subscription experience.",
-      image: "/newsletter.png",
-      liveLink: "https://smartsignup.onrender.com/",
-      githubLink: "https://github.com/Yaschilal-Enyew/StudentSignUp",
+        "Electronics ecommerce – A comprehensive web-based full e-commerce platform with admin panel. ",
+      image: "/infinity.png",
+      liveLink: "https://infinity-electronics-ecommerce.vercel.app/",
+      githubLink: "https://github.com/Yaschilal-Enyew/Infinity-Electronics-ecommerce",
     },
     {
       id: 2,
+      title: "Aura stay ",
+      description:
+        "it's Hotel booking web app",
+      image: "/aurastay.png",
+      liveLink: "https://aurastay.vercel.app/",
+      githubLink: "https://github.com/Yaschilal-Enyew/Hotel-app",
+    },
+    {
+      id: 3,
       title: "ChatSphere App",
       description:
         "A modern private messaging application with user registration and secure storage. Real-time capabilities and future plans for WebSockets integration.",
@@ -133,8 +142,10 @@ const Projects = () => {
       liveLink: "https://aura-chat-fro.vercel.app/",
       githubLink: "https://github.com/Yaschilal-Enyew/chat-app-frontend",
     },
+    
+    
     {
-      id: 3,
+      id: 4,
       title: "Smart Authentication",
       description:
         "A highly secure  authentication, implementing JWT tokens, bcrypt password hashing, and email verification. Designed for easy integration with modern web apps.",
@@ -143,13 +154,13 @@ const Projects = () => {
       githubLink: "https://github.com/Yaschilal-Enyew/Smart-Auth-Frontend",
     },
     {
-      id: 4,
-      title: "Online Ecommerce",
+      id: 5,
+      title: "NewsLetter Form",
       description:
-        "Online Market – A comprehensive web-based e-commerce platform for products. Currently in development with cutting-edge features.",
-      image: "/come.jpg",
-      liveLink: "#",
-      githubLink: "#",
+        "Newsletter App with Mailchimp Integration that allows users to subscribe to newsletters and  to manage subscribers and send email campaigns efficiently. Built with EJS for a smooth subscription experience.",
+      image: "/newsletter.png",
+      liveLink: "https://smartsignup.onrender.com/",
+      githubLink: "https://github.com/Yaschilal-Enyew/StudentSignUp",
     },
   ];
 
